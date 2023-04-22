@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900");
+
+.main-header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: -1%;
+}
+
+
+.header-container{
+    margin-left: -81%;
+    margin-top: 2%;
+}
+
+h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-left: 39%;
+}
+
+.savelist{
+    margin-left: 55%;
+    font-size: 20px;
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width: 1012px) {
+    .main-header-container{
+        width: 50%;
+        margin-left: 37%;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    h1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 890px) {
+    .main-header-container{
+        width: 53%;
+        margin-left: 40%;
+    }
+    .savelist{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 26px;
+    } 
+}
+
+@media (max-width: 696px) {
+    .main-header-container{
+        width: 55%;
+    margin-left: 40%;
+    }
+
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+
+    .savelist{
+        font-size: 14px;
+    }
+    
+    h1{
+        font-size: 20px;
+    } 
+}
+
+@media (max-width: 569px) {
+
+    .main-header-container{
+        width: 60%;
+        margin-left: 37%;
+    }
+    h1{
+        font-size: 18px;
+    } 
+
+    .savelist{
+        font-size: 11px;
+        margin-left: 40%;
+    }
+  
+  }
+
+@media (max-width: 466px) {
+    .main-header-container{
+        width: 75%;
+    margin-left: 54%;
+    }
+
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+
+    .savelist{
+        font-size: 12px;
+    }
+    
+    h1{
+        font-size: 18px;
+    } 
+}
+
+
+
+@media (max-width: 325px) {
+    .main-header-container{
+        width: 95%;
+        margin-left: 63%;
+    }
+
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+
+    .savelist{
+        font-size: 8px;
+        margin-left: 40%;
+    }
+    
+    h1{
+        font-size: 10px;
+    } 
+}
+
+

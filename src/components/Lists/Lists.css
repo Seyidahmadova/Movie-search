@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900");
+
+.search-lists {
+    list-style: none;
+    width: 54%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: black;
+    margin-left: 2%;
+    margin-top: 4%;
+  }
+  
+  .search-list{
+    margin-bottom: 21px;
+    width: 140px;
+    border: 1px solid black;
+    display: flex;
+    background-color: black;
+  }
+  
+  .movie-item__poster{
+    width: 100%;
+    /* height: 300px; */
+  }
+
+  .movie-cont{
+    display: flex;
+    width: 138px;
+    height:200px;
+  }
+
+  .movie-item__cont{
+    width: 90%;
+  }
+  
+  .movie-item__title{
+    margin-top: 5px;
+    height: 60px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .movie-item__add-button{
+    width: 117px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 12px;
+    line-height: 18px;
+    color: #dedddd;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #575756;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    margin-left: -11%;
+    margin-top: 8%;
+  }
+
+
+@media (max-width: 590px){
+    .movie-cont{
+      width: 120px;
+      height: 190px;
+    }
+
+    
+      .search-lists{
+        width: 100%;
+      }
+      
+      .search-list{
+        width: 137px;
+      }
+
+      
+      .movie-item__title{
+        font-size: 12px; 
+      
+      }
+}
+
+@media (max-width: 466px){
+  .movie-cont{
+    width: 120px;
+    height: 190px;
+  }
+
+  
+    .search-lists{
+      width: 461px;
+    }
+    
+    .search-list{
+      width: 137px;
+    }
+
+    
+    .movie-item__title{
+      font-size: 12px; 
+    
+    }
+}
+
+
+@media (max-width: 386px){
+  .movie-cont{
+    width: 120px;
+    height: 190px;
+  }
+
+  
+    .search-lists{
+      width: 460px;
+    }
+    
+    .search-list{
+      width: 130px;
+    }
+
+    
+    .movie-item__title{
+      font-size: 10px; 
+    
+    }
+
+    .movie-item__add-button{
+      font-size: 10px;
+    }
+}

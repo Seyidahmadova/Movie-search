@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900");
+
+.save-list {
+  margin-top: 4%;
+  margin-left: 36%;
+}
+
+.collection {
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway";
+  font-size: 20px;
+  margin-left: 66%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway";
+  margin-top: -4%;
+}
+
+.save-list-container {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  width: 93%;
+
+  margin-top: 13%;
+  margin-left: 7%;
+  gap: 30px;
+}
+
+.save-lists {
+  margin-left: -54%;
+  margin-top: -8%;
+  margin-bottom: 7%;
+}
+
+.save-item {
+  margin-top: 12%;
+  margin-left: 70%;
+  width: 115px;
+  gap: 10px;
+}
+
+.save-cont {
+  margin-left: 2%;
+  width: 100%;
+}
+
+.save-item__poster {
+  width: 100%;
+}
+
+.save-item__cont {
+  width: 100%;
+  font-family: "Raleway";
+  font-size: 14px;
+}
+
+.save-item__title {
+  margin-top: 1%;
+  color: white;
+  font-size: 14px;
+  font-family: "Raleway";
+}
+

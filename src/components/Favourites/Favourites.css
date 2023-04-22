@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900");
+
+.fav {
+  display: flex;
+  position: absolute;
+  top:175px;
+  left: 65%;
+  width: 32%;
+}
+
+.fav-container {
+  display: flex;
+  width: 300px;
+  gap: 20px;
+}
+
+.fav-input {
+  width: 100%;
+  padding: 12px 24px;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  line-height: 18px;
+
+  color: #575756;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.fav-btn {
+  width: 50%;
+  padding: 12px 24px;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #575756;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.fav-btn:hover{
+  cursor: pointer;
+}
+
+.fav-movie-item {
+  display: flex;
+}
+
+.fav-movie-cont {
+  width: 100px;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.fav-movie-item__poster {
+  width: 100%;
+}
+
+.fav-movie-item__info {
+  margin-top: 3%;
+  width: 200px;
+}
+
+.fav-movie-item__title {
+  padding-top: 14%;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  width: 100px;
+}
+
+.delete-icon {
+  background-color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-left: 72%;
+  margin-top: -30%;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.icondiv{
+  display: none;
+}
+
+
+@media (max-width: 1012px){
+  .fav{
+    top: 125px;
+  }
+
+
+}
+
+@media (max-width: 918px) {
+  .fav-input{
+    width: 88%;
+  }
+  .fav-btn{
+    width: 40%;
+    margin-left: -8%;
+  }
+  
+  .delete-icon{
+        margin-left: 68%;
+        margin-top: -8%;
+  } 
+  .fav-movie-item__poster {
+    width: 90%;
+}
+.fav-movie-cont {
+    width: 88px;}
+    
+    .fav-movie-item__title {
+    font-size: 12px;
+    width: 90px;
+} 
+.delete-icon {
+  margin-left: 68%;
+  margin-top: -27%;
+}
+    
+  
+}
+
+@media (max-width: 697px) {
+
+  .fav{
+   top: 105px;
+  }
+
+}
+
+@media (max-width: 676px) {
+  .fav-form{
+    width: 95%;
+    margin-left: 3%;
+  }
+  .fav-container{
+    width: 92%;
+    margin-left: -3%;
+  }
+  .fav-input{
+    width: 100%;
+  }
+  .fav-btn{
+    width: 45%;
+    padding: 8px 8px;
+    margin-left: -12%;
+    font-size: 12px;
+  }
+
+  
+  .delete-icon {
+    margin-left: 63%;
+    margin-top: -24%;
+    width: 22px;
+    height: 22px;
+}
+.fav-movie-item__title {
+    font-size: 7px;
+    width: 62px;
+}
+.icon {
+    width: 22px;
+    height: 22px;
+}
+
+ 
+   
+  .fav-movie-item__poster {
+    width: 90%;
+}
+
+.fav-movie-item__info {
+  margin-top:5%;
+    width: 175px;
+}
+
+.fav-movie-cont {
+    width: 77px;}
+     
+    
+  
+}
+
+
+@media (max-width: 590px) {
+
+  .fav{
+    position:relative;
+    margin-left: -62%;
+    width: 79%;
+    margin-top: -15%;
+    margin-bottom: 40%; 
+  }
+
+  .fav-btn{
+    width: 43%;
+    font-size: 15px;
+    padding: 10px 12px;
+  }
+
+    .fav-lists {
+    width: 100%;
+}
+.fav-list{
+  width:100%;
+}
+
+.fav-container {
+    width: 100%;
+    margin-left: -3%;
+
+}
+.fav-input {
+    width: 100%;
+    padding: 12px 16px;
+}
+
+.fav-movie-cont {
+    width: 100px;
+}
+
+.fav-movie-item__poster {
+    width: 100%;
+}
+
+.fav-movie-item__info {
+    margin-top: 10%;
+    width: 200px;
+}
+
+.fav-movie-item__title {
+    font-size: 12px;
+    width: 76px;
+    margin-left: 3%;
+}
+
+
+.delete-icon {
+    margin-left: 70%;
+    margin-top: -33%;
+    width: 33px;
+    height: 33px;
+}
+
+.icon {
+    width: 33px;
+    height: 33px;
+}
+
+
+}
+
+
+
+@media (max-width: 548px) {
+
+  .fav{
+    position: relative;
+    margin-left: -62%;
+    width: 79%;
+    margin-top: -15%;
+    margin-bottom: 40%; 
+
+  }
+
+  .fav-btn{
+    width: 43%;
+    font-size: 15px;
+    padding: 10px 12px;
+  }
+
+    .fav-lists {
+    width: 100%;
+}
+.fav-list{
+  width:100%;
+}
+
+.fav-container {
+    width: 100%;
+    margin-left: -3%;
+
+}
+.fav-input {
+    width: 100%;
+    padding: 12px 16px;
+}
+
+.fav-movie-cont {
+    width: 100px;
+}
+
+.fav-movie-item__poster {
+    width: 100%;
+}
+
+.fav-movie-item__info {
+  margin-top: 5%;
+    width: 200px;
+}
+
+.fav-movie-item__title {
+    font-size: 12px;
+    width: 76px;
+    margin-left: 3%;
+}
+
+
+.delete-icon {
+    margin-left: 70%;
+    margin-top: -28%;
+    width: 33px;
+    height: 33px;
+}
+
+.icon {
+    width: 33px;
+    height: 33px;
+}
+
+
+}
+
+@media (max-width: 358px) {
+
+  .fav{
+    position: relative;
+    margin-left: -60%;
+    width: 74%;
+    margin-top: -15%;
+    margin-bottom: 40%; 
+
+  }
+
+  .fav-input{
+    padding: 9px 12px;
+  }
+
+
+  .fav-btn{
+    width: 43%;
+    font-size: 12px;
+    padding: 9px 12px;
+  }
+  .fav-movie-item__title {
+    font-size: 10px;
+    width: 76px;
+    margin-left: 3%;
+}
+.delete-icon {
+  margin-left: 71%;
+  margin-top: -35%;
+  width: 30px;
+  height: 30px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+}
+
